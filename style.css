@@ -256,11 +256,8 @@ footer .social-icon a{
         text-align: center;
     }
     .popular-items {
-        width: 100%;
+        width: 270px;
         height: auto;
-        padding: 0 5%;
-        overflow: hidden;
-        margin: 0;
     }
     .popular-sections{
         display: grid;
@@ -272,9 +269,9 @@ footer .social-icon a{
         align-items: center;
         grid-row-gap: 25px;
     }
-    body{
+    /* body{
        width: 100%;
-    }
+    } */
     .social-icon{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
