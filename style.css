@@ -220,6 +220,11 @@ footer .social-icon a{
         justify-items: center;
         grid-row-gap: 50px;
     }
+    .header-img img{
+        width: 350px;
+        height: auto;
+
+    }
     .navbar .header-menu{
         display: none;
     }
@@ -238,10 +243,24 @@ footer .social-icon a{
         font-weight: 700;
         margin:0 auto;
     }
+    .digital-img img{
+        width: 350px;
+        height: auto;
+    }
     .digital-content{
+        width: 350px;
+        height: auto;
         text-align: center;
     }
-    .popular-sections, .container, .digitals, .navbar{
+    .popular-items{
+        width: 230px;
+        height: auto;
+    }
+    .popular-sections{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .digitals, .container, .navbar{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         align-items: center;
@@ -263,7 +282,9 @@ footer .social-icon a{
 /* tablet devise  */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
    
-
+.content h1{
+    font-size: 19px;
+}
     .popular-site-logos{
         width: 550px;
         height: auto;
