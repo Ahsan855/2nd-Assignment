@@ -243,32 +243,31 @@ footer .social-icon a{
         font-weight: 700;
         margin:0 auto;
     }
+    .digitals{
+       grid-template-columns: repeat(1,1fr);
+    }
     .digital-img img{
-        width: 350px;
+        width: 330px;
         height: auto;
     }
     .digital-content{
-        width: 350px;
+        width: 330px;
         height: auto;
         text-align: center;
     }
     .popular-items{
-        width: 230px;
+        width: 220px;
         height: auto;
     }
     .popular-sections{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .digitals, .container, .navbar{
+    .container, .navbar{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         align-items: center;
         grid-row-gap: 25px;
-    }
-     .popular-items{
-        width: 300px;
-        height: auto;
     }
     body{
        width: 100%;
