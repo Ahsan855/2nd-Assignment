@@ -255,9 +255,12 @@ footer .social-icon a{
         height: auto;
         text-align: center;
     }
-    .popular-items{
-        width: 220px;
+    .popular-items {
+        width: 100%;
         height: auto;
+        padding: 0 5%;
+        overflow: hidden;
+        margin: 0;
     }
     .popular-sections{
         display: grid;
