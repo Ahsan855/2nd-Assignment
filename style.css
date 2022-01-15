@@ -5,6 +5,11 @@ body{
   
     font-family: 'Open Sans', sans-serif;
 }
+
+/*====================
+   header start for css 
+ ======================== */
+ 
 .navbar{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -74,6 +79,10 @@ hr{
     margin-top: 70px;
     margin-bottom: 50px;
 }
+
+/* ===========================
+popular section made by me 
+============================ */
 .popular-site-logos{
     margin-top: 100px;
     display: grid;
@@ -86,9 +95,6 @@ hr{
     
     
 }
-/* ===========================
-popular section made by me 
-============================ */
 
 .popular-title h1{
     margin: 100px;
@@ -141,7 +147,9 @@ margin-right: 50px;
 }
 
 
-/* digital  */
+/*==========
+  digital
+===========  */
 .digitals{
     display: grid;
     grid-template-columns: repeat(2,1fr);
