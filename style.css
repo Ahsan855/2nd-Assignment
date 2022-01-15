@@ -214,7 +214,7 @@ footer .social-icon a{
    Media Quary for UX 
 ======================== */
 @media only screen and (max-width:688px) {
-   
+    
     .popular-site-logos{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
