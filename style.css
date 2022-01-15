@@ -265,22 +265,34 @@ footer .social-icon a{
    
 
     .popular-site-logos{
+        width: 550px;
+        height: auto;
+        align-items: center;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
-        grid-row-gap: 50px;
+        grid-row-gap: 40px;
     }
     .popular-items{
-        width: 250px;
+        width: 230px;
         height: auto;
     }
     .popular-sections{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-   .container{
-        width: 100%;
+    .container{
         grid-template-columns: repeat(2, 1fr);
+    }
+   .header-contents{
+        width: 230px;
+        height: auto;
         
+        
+    }
+    .header-img{
+        width: 300px;
+        height: auto;
+        margin-left: -100px;
     }
     .digitals{
         display: grid;
@@ -292,15 +304,20 @@ footer .social-icon a{
     .navbar .header-menu{
         display: none;
     }
-    .digital-img{
-        width: 60%;
-        height: auto;
+    .sec-more-section{
+        text-align: center;
+    }
+    .digital-img img{
+        width: 270px;
+        height: 370px;
+        margin-right: 20px;
     }
     .digital-content{
         width: 300px;
         height: auto;
-        margin-left: 20px;
+        
     }
+    
     .social-icon{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
